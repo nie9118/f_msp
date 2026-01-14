@@ -237,7 +237,7 @@ class Trainer:
             dataset,
             batch_size=None,
             shuffle=False,
-            num_workers=8,
+            num_workers=1,
             prefetch_factor=4,
             pin_memory=True if self.config.prior_device == "cpu" else False,
             pin_memory_device=self.config.device if self.config.prior_device == "cpu" else "",

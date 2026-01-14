@@ -2,7 +2,7 @@
 
 # This script is used for Stage 1 training of Orion-BiX with rowmixer_lite_icl model
 
-torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/src/orion_msp/train/runMantis_rowicl.py \
+torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/src/orion_msp/train/run.py \
             --model rowmixer_lite_icl \
             --device cuda \
             --amp true \
