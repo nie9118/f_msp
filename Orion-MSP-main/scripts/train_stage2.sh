@@ -13,7 +13,7 @@ torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir
             --device cuda \
             --amp true \
             --dtype float32 \
-            --max_steps 2000 \
+            --max_steps 14000 \
             --batch_size 256 \
             --micro_batch_size 2 \
             --lr 1.0e-4 \
