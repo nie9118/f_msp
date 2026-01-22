@@ -3,6 +3,12 @@
 # This script is used for Stage 1 training of Orion-BiX with rowmixer_lite_icl model
 
 torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/src/orion_msp/train/run.py \
+            --wandb_log True \
+            --model rowmixer_lite_icl \
+            --wandb_project TabICL \
+            --wandb_name fang \
+            --wandb_dir ./wandb/dir \
+            --wandb_mode offline \
             --model rowmixer_lite_icl \
             --device cuda \
             --amp true \
@@ -39,5 +45,4 @@ torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir
             --rowmixer_patch_size 8 \
             --rowmixer_shuffle_p 0.25 \
             --save_temp_every 50 \
-            --save_perm_every 1000 \
-            --wandb_log False
+            --save_perm_every 1000
