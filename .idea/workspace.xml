@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c76e2967-6f59-43ed-908f-1aa8b9467f68" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c76e2967-6f59-43ed-908f-1aa8b9467f68" name="更改" comment="s2">
       <change beforePath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,6 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/fang",
@@ -71,8 +69,17 @@
       <option name="presentableId" value="Default" />
       <updated>1768361033258</updated>
       <workItem from="1768361034486" duration="5408000" />
-      <workItem from="1769097534377" duration="165000" />
+      <workItem from="1769097534377" duration="510000" />
     </task>
+    <task id="LOCAL-00001" summary="s2">
+      <option name="closed" value="true" />
+      <created>1769097905852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1769097905853</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +95,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="s2" />
+    <option name="LAST_COMMIT_MESSAGE" value="s2" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

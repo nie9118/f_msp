@@ -8,6 +8,7 @@
 
 torchrun  --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/src/orion_msp/train/run.py \
             --wandb_log True \
+            --model rowmixer_lite_icl \
             --wandb_project TabICL \
             --wandb_name fang \
             --wandb_dir ./wandb/dir \
