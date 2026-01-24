@@ -263,7 +263,7 @@ def run_on_gpu(model_path: str, dirs: List[Path], gpu_physical_id: int, results_
 
     logging.info(f"[GPU {gpu_physical_id}] 启动，分配到 {len(dirs)} 个数据集")
 
-    from orion import OrionMSPClassifier
+    from orion_msp import OrionMSPClassifier
     clf = OrionMSPClassifierr(verbose=False, model_path=model_path)
 
     missing_datasets: set[str] = set()
