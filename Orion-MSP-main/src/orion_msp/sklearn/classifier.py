@@ -19,7 +19,7 @@ from huggingface_hub.utils import LocalEntryNotFoundError
 
 from .preprocessing import TransformToNumerical, EnsembleGenerator
 from ..model.inference_config import InferenceConfig
-from ..model.orion_msp import OrionMSP
+from ..model.rowmixer_lite_icl import RowMixerLiteICL
 
 
 warnings.filterwarnings("ignore", category=FutureWarning, module="sklearn")
@@ -274,7 +274,7 @@ class OrionMSPClassifier(ClassifierMixin, BaseEstimator):
         assert "state_dict" in checkpoint, "The checkpoint doesn't contain the model state."
 
         self.model_path_ = model_path_
-        self.model_ = OrionMSP(**checkpoint["config"])
+        self.model_ = RowMixerLiteICL(**checkpoint["config"])
         self.model_.load_state_dict(checkpoint["state_dict"])
         self.model_.eval()
 

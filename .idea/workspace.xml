@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c76e2967-6f59-43ed-908f-1aa8b9467f68" name="更改" comment="s2">
-      <change beforePath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion-MSP-main/src/orion_msp/sklearn/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orion-MSP-main/src/orion_msp/sklearn/classifier.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shengbindashuai"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shengbindashuai&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:nie9118/f_msp.git",
-    "accountId": "761ffb0a-8dd2-4add-b138-b310177ce1ef"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:nie9118/f_msp.git&quot;,
+    &quot;accountId&quot;: &quot;761ffb0a-8dd2-4add-b138-b310177ce1ef&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -45,15 +46,21 @@
     "SHELLCHECK.PATH": "C:\\Users\\nsb\\AppData\\Roaming\\JetBrains\\PyCharm2025.3\\plugins\\Shell Script\\shellcheck.exe",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/fang",
+    "last_opened_file_path": "D:/fang/Orion-MSP-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "web.server",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\fang\Orion-MSP-main" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,7 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1768361033258</updated>
       <workItem from="1768361034486" duration="5408000" />
-      <workItem from="1769097534377" duration="1582000" />
+      <workItem from="1769097534377" duration="4822000" />
+      <workItem from="1769146715314" duration="603000" />
+      <workItem from="1769148562200" duration="1908000" />
+      <workItem from="1769233600054" duration="1449000" />
+      <workItem from="1769240642673" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="s2">
       <option name="closed" value="true" />
@@ -120,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769098932388</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="s2">
+      <option name="closed" value="true" />
+      <created>1769099138164</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1769099138164</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
