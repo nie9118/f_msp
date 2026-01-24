@@ -45,5 +45,5 @@ torchrun --nproc_per_node=8 /vast/users/guangyi.chen/causal_group/zijian.li/dmir
             --rowmixer_patch_size 8 \
             --rowmixer_shuffle_p 0.25 \
             --save_temp_every 50 \
-            --checkpoint_path ./checkpoints/rowmixer_lite_icl/step-12000.ckpt \
+            --checkpoint_path ./checkpoints/rowmixer_lite_iclStage2/step-14000.ckpt \
             --save_perm_every 1000

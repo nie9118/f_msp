@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c76e2967-6f59-43ed-908f-1aa8b9467f68" name="更改" comment="s2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Orion-MSP-main/scripts/train_stage2.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +82,9 @@
       <workItem from="1769148562200" duration="1908000" />
       <workItem from="1769233600054" duration="1449000" />
       <workItem from="1769240642673" duration="1288000" />
-      <workItem from="1769242159296" duration="51000" />
+      <workItem from="1769242159296" duration="159000" />
+      <workItem from="1769254796426" duration="977000" />
+      <workItem from="1769277523143" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="s2">
       <option name="closed" value="true" />
@@ -171,7 +174,23 @@
       <option name="project" value="LOCAL" />
       <updated>1769241929695</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="s2">
+      <option name="closed" value="true" />
+      <created>1769242221529</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1769242221529</updated>
+    </task>
+    <task id="LOCAL-00013" summary="s2">
+      <option name="closed" value="true" />
+      <created>1769255809643</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1769255809643</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
