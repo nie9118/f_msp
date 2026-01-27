@@ -102,9 +102,6 @@
 #            --save_temp_every 2 \
 #            --save_perm_every 10
 
-
-#!/bin/bash
-
 # This script is used for Stage 1 training of Orion-BiX with rowmixer_lite_icl model
 
 #offline-run-20260124_175942-pn67q39c
