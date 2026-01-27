@@ -2,6 +2,8 @@
 export MIOPEN_DISABLE_CACHE=1
 export MIOPEN_DB_OFF=1
 export MIOPEN_DEBUG_DISABLE_DB=1
+export MIOPEN_USER_DB_PATH=:memory:
+export MIOPEN_SYSTEM_DB_PATH=:memory:
 export HIP_VISIBLE_DEVICES=0
 
 ROW_MIXER_CKPT="/vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/checkpoints/rowmixer_lite_iclStage2/step-15600.ckpt"
