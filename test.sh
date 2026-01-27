@@ -41,7 +41,7 @@ run_rowmixer_eval() {
         --suite uea \
         --ucr-path "${UCR_PATH}" \
         --uea-path "${UEA_PATH}" \
-        --rowmixer-ckpt "${rowmixer_ckpt}" \  # 遍历替换这个参数
+        --rowmixer-ckpt "${rowmixer_ckpt}" \
         --mantis-batch-size 16 \
         --rowmixer-batch-size 1 \
         --mantis-ckpt "${MANTIS_CKPT}" > "${log_file}" 2>&1
