@@ -4,7 +4,7 @@ export MIOPEN_DB_OFF=1
 export MIOPEN_DEBUG_DISABLE_DB=1
 export HIP_VISIBLE_DEVICES=0
 
-ROW_MIXER_CKPT="/vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/checkpoints/rowmixer_lite_iclStage2/step-15600.ckpt"
+ROW_MIXER_CKPT="/vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/f_msp/Orion-MSP-main/checkpoints/rowmixer_lite_iclStage2/step-15750.ckpt"
 
 # mantis 模型 checkpoint 文件的实际路径（必填，替换下面的占位符）
 MANTIS_CKPT="/vast/users/guangyi.chen/causal_group/zijian.li/dmir_crl/test-TIC/TIC-FS/code/checkpoints/CaukerImpro-data100k_emb512_100epochs.pt"
